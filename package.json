@@ -1,0 +1,17 @@
+{
+  "name": "college-check",
+  "module": "index.ts",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "cron": "^2.4.3",
+    "nodemailer": "^6.9.5",
+    "twilio": "^4.17.0"
+  }
+}
